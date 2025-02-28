@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sign up page</title>
+
+    <!--css for navbar and footer-->
+
+    <style>
+      .Navbar {
+        padding: 10px;
+
+        margin: 0;
+
+        list-style: none;
+
+        display: inline-block;
+
+        background-color: black;
+
+        border: 3px solid black;
+      }
+
+      .Navbar li {
+        display: inline;
+
+        margin-right: 40px;
+      }
+
+      .Navbar li a {
+        font-size: 50px;
+
+        font-weight: bold;
+
+        text-decoration: none;
+
+        color: white;
+      }
+
+      .Navbar a:hover {
+        background-color: gray;
+      }
+
+      .Navbar {
+        width: 100%;
+
+        background-color: black;
+      }
+
+      .Footer {
+        padding: 10px;
+
+        margin: 0;
+
+        list-style: none;
+
+        display: inline-block;
+      }
+
+      .Footer li {
+        display: inline;
+
+        margin-right: 40px;
+      }
+
+      .Footer li a {
+        font-size: 30px;
+
+        font-weight: bold;
+
+        text-decoration: none;
+
+        color: black;
+      }
+
+      .Footer a:hover {
+        background-color: gray;
+      }
+
+      .Footer {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: yellowgreen">
+    <header>
+      <nav>
+        <!--html for nav bar-->
+
+        <ul class="Navbar">
+          <li><a href="index.html">Biography</a></li>
+
+          <li><a href="Achievement-page.html">Achievements</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <!--log in button-->
+
+        <table align="right">
+          <tr>
+            <td>
+              <a
+                href="login-page.html"
+                style="
+                  text-decoration: none;
+
+                  background-color: #4caf50;
+
+                  color: white;
+
+                  padding: 12px 24px;
+
+                  border: 2px solid #4caf50;
+
+                  display: inline-block;
+
+                  border-radius: 5px;
+                ">
+                Log In
+              </a>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <br /><br />
+
+      <section>
+        <h1 style="margin-left: 45%">Sign Up Page</h1>
+
+        <br /><br /><br /><br /><br /><br /><br />
+
+        <center>
+          <!--form to log in-->
+
+          <!--action-takes you to another page, method is good so the action works, style, is saing how the form should look  -->
+
+          <form
+            action="thank-you-for-signing-up-page.html"
+            method="get"
+            style="width: px100; height: 40">
+            <!--Lable for email-->
+
+            <label for="email"><b>Email Address</b></label> <br />
+
+            <!--input box for emal-->
+
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="                  Email"
+              required />
+
+            <br />
+
+            <!--label for password-->
+
+            <label for="password"><b>Password</b></label> <br />
+
+            <!--input box for password-->
+
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              placeholder="               Password" />
+
+            <br />
+
+            <br />
+
+            <!--Submit button input-->
+
+            <input
+              type="submit"
+              value="Sign Up"
+              style="
+                text-decoration: none;
+
+                background-color: #4caf50;
+
+                color: white;
+
+                padding: 7px 20px;
+
+                border: 2px solid #4caf50;
+
+                display: inline-block;
+
+                border-radius: 5px;
+              " />
+          </form>
+        </center>
+      </section>
+    </main>
+  </body>
+</html>
